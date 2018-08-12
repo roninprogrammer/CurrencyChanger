@@ -31,5 +31,53 @@ Design a page with an input field and a button. The input field is currency and 
 
 If also if your using SimpleHttpClient and AsyncTask are written in 30lines of code, you can achieve the same using Retrofit or volley in within 6 to 8 lines of code. 
 
-So, retrofit is winrar and most easier way for consuming a REST api on Android
+So, retrofit is winrar and most easier way for consuming a REST api on Android. 
+
+
+The project is setup using:
+
+
+- Functional tests with [Espresso](http://google.github.io/android-testing-support-library/docs/espresso)
+- Unit tests with [Mockito](http://mockito.org/) and [Robolectric](http://robolectric.org/) 
+- [RxJava](https://github.com/ReactiveX/RxJava) and [RxAndroid](https://github.com/ReactiveX/RxAndroid) 
+- [Retrofit](http://square.github.io/retrofit/) and [OkHttp](https://github.com/square/okhttp)
+- [Dagger 2](http://google.github.io/dagger/)
+- [Butterknife](https://github.com/JakeWharton/butterknife)
+- [Timber] (https://github.com/JakeWharton/timber)
+- [Mockito](http://mockito.org/)
+- [Glide](https://github.com/bumptech/glide)
+
+Requirements
+------------
+
+ - [Android SDK](http://developer.android.com/sdk/index.html).
+ - Android [6.0 (API 23) ](http://developer.android.com/tools/revisions/platforms.html#6.0).
+ - Android SDK Tools
+ - Android SDK Build tools 23.0.2
+ - Android Support Repository
+ - Android Support library
+
+Building
+--------
+
+To build, install and run a debug version, run this from the root of the project:
+
+    ./gradlew installRunDebug
+    
+Testing
+--------
+
+For Android Studio to use syntax highlighting for Automated tests and Unit tests you **must** switch the Build Variant to the desired mode.
+
+To run **pmd**, **checkstyle** and **findbug** checks on your machine:
+
+    ./gradlew check
+
+To run **unit** tests on your machine:
+
+    ./gradlew testDebugUnitTest
+    
+To run **automated** tests on connected devices:
+
+    ./gradlew connectedDebugAndroidTest
 
