@@ -28,7 +28,7 @@ Design a page with an input field and a button. The input field is currency and 
 ![alt text](http://i.imgur.com/tIdZkl3.png "")
 
 
-If also if your using SimpleHttpClient and AsyncTask are written in 30lines of code, you can achieve the same using Retrofit or volley in within 6 to 8 lines of code. 
+If also if your using SimpleHttpClient and AsyncTask are written in 30 lines of code, you can achieve the same using Retrofit or volley in within 6 to 8 lines of code. 
 
 So, retrofit is winrar and most easier way for consuming a REST api on Android. 
 
