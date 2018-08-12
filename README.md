@@ -14,5 +14,6 @@ Design a page with an input field and a button. The input field is currency and 
  
  For example,
  
- Currency Rate
- AUD 0.3346779357
+ | Currency | Rate        |
+ |----------|-------------|
+ | AUD      | 0.3346779357 |
