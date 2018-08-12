@@ -1,4 +1,4 @@
-# CurrencyChanger
+# CurrencyExchange
 
 Design a page with an input field and a button. The input field is currency and the button to call the api.
  
