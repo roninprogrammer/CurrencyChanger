@@ -4,8 +4,7 @@ Design a page with an input field and a button. The input field is currency and 
  
  Call this api 
  
- <b>GET</b>
- https://exchangeratesapi.io/api/latest?base=MYR
+ <b>GET</b>  https://exchangeratesapi.io/api/latest?base=MYR
  
  which base=???
  
