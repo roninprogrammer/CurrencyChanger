@@ -8,7 +8,8 @@ Design a page with an input field and a button. The input field is currency and 
  
  which base=???
  
- Is your input field value. If not enough time, can just hardcode to MYR.
+ Is your input field value.
+ 
  Display the api result as a list, with Currency and Rate as header.
  
  For example,
